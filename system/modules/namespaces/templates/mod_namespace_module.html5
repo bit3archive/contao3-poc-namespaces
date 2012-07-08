@@ -1,0 +1,5 @@
+<p>Module: <?php
+
+$objClass = new \Contao\Extension\Namespaces\NamespaceClass();
+
+?></p>
