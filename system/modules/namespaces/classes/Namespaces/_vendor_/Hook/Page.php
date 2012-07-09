@@ -1,6 +1,6 @@
 <?php
 
-namespace Contao\Extension\Namespaces\_vendor_\Hook;
+namespace Namespaces\_vendor_\Hook;
 
 class Page
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Contao\Extension\Namespaces\_vendor_;
+namespace Namespaces\_vendor_;
 
 class NamespaceClass
 {

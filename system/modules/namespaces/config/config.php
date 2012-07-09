@@ -3,14 +3,14 @@
 /**
  * Content elements
  */
-$GLOBALS['TL_CTE']['namespaces']['namespaces'] = 'Contao\\Extension\\Namespaces\\Content\\NamespaceContent';
+$GLOBALS['TL_CTE']['namespaces']['namespaces'] = 'Namespaces\\Content\\NamespaceContent';
 
 /**
  * Front end modules
  */
-$GLOBALS['FE_MOD']['namespaces']['namespaces'] = 'Contao\\Extension\\Namespaces\\Module\\NamespaceModule';
+$GLOBALS['FE_MOD']['namespaces']['namespaces'] = 'Namespaces\\Module\\NamespaceModule';
 
 /**
  * Hooks
  */
-$GLOBALS['TL_HOOKS']['generatePage'][] = array('Contao\\Extension\\Namespaces\\Hook\\Page', 'myGeneratePage');
+$GLOBALS['TL_HOOKS']['generatePage'][] = array('Namespaces\\Hook\\Page', 'myGeneratePage');

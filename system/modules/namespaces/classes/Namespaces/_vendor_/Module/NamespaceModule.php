@@ -1,6 +1,6 @@
 <?php
 
-namespace Contao\Extension\Namespaces\_vendor_\Module;
+namespace Namespaces\_vendor_\Module;
 
 class NamespaceModule extends \Module
 {

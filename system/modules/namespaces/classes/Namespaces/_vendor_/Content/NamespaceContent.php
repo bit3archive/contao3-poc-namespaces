@@ -1,6 +1,6 @@
 <?php
 
-namespace Contao\Extension\Namespaces\_vendor_\Content;
+namespace Namespaces\_vendor_\Content;
 
 class NamespaceContent extends \ContentElement
 {
