@@ -1,6 +1,6 @@
 <?php
 
-namespace Namespaces\_vendor_\Hook;
+namespace Namespaces\Hook;
 
 class Page
 {

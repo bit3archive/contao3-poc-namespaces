@@ -5,18 +5,18 @@
  * 
  * Copyright (C) 2005-2012 Leo Feyer
  * 
- * @package Namespaces
+ * @package Namespaces_extension
  * @link    http://www.contao.org
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  */
 
 
 /**
- * Register the namespaces
+ * Register class mapping
  */
-ClassLoader::addNamespaceMappings(array
+ClassLoader::addClassMappings(array
 (
-	'Namespaces' => 'Namespaces\_vendor_',
+	'Runtime\Namespaces\NamespaceClass' => 'Namespaces\Extension\NamespaceClass',
 ));
 
 
@@ -25,25 +25,5 @@ ClassLoader::addNamespaceMappings(array
  */
 ClassLoader::addClasses(array
 (
-	// Content
-	'Namespaces\_vendor_\Content\NamespaceContent' => 'system/modules/namespaces/classes/Namespaces/_vendor_/Content/NamespaceContent.php',
-
-	// Hook
-	'Namespaces\_vendor_\Hook\Page'                => 'system/modules/namespaces/classes/Namespaces/_vendor_/Hook/Page.php',
-
-	// Module
-	'Namespaces\_vendor_\Module\NamespaceModule'   => 'system/modules/namespaces/classes/Namespaces/_vendor_/Module/NamespaceModule.php',
-
-	// _vendor_
-	'Namespaces\_vendor_\NamespaceClass'           => 'system/modules/namespaces/classes/Namespaces/_vendor_/NamespaceClass.php',
-));
-
-
-/**
- * Register the templates
- */
-TemplateLoader::addFiles(array
-(
-	'ce_namespace_module'  => 'system/modules/namespaces/templates',
-	'mod_namespace_module' => 'system/modules/namespaces/templates',
+	'Namespaces\Extension\NamespaceClass' => 'system/modules/namespaces_extension/classes/Namespaces/Extension/NamespaceClass.php',
 ));

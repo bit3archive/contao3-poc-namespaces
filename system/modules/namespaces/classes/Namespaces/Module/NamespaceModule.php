@@ -1,6 +1,6 @@
 <?php
 
-namespace Namespaces\_vendor_\Module;
+namespace Namespaces\Module;
 
 class NamespaceModule extends \Module
 {

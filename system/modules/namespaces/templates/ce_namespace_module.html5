@@ -1,5 +1,5 @@
 <p>Content element: <?php
 
-$objClass = new \Namespaces\_vendor_\NamespaceClass();
+$objClass = new \Namespaces\NamespaceClass();
 
 ?></p>

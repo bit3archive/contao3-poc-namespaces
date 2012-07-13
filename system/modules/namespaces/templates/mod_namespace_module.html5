@@ -1,5 +1,5 @@
 <p>Module: <?php
 
-$objClass = new \Namespaces\NamespaceClass();
+$objClass = new \Runtime\Namespaces\NamespaceClass();
 
 ?></p>

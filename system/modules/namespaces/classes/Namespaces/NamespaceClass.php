@@ -1,5 +1,5 @@
 <?php
-namespace Namespaces\_vendor_;
+namespace Namespaces;
 
 class NamespaceClass
 {

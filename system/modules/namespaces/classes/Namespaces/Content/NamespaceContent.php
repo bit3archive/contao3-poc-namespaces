@@ -1,6 +1,6 @@
 <?php
 
-namespace Namespaces\_vendor_\Content;
+namespace Namespaces\Content;
 
 class NamespaceContent extends \ContentElement
 {
