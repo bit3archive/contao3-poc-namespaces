@@ -16,6 +16,6 @@
  */
 TemplateLoader::addFiles(array
 (
-	'ce_namespace_module'  => 'system/modules/namespaces/templates',
-	'mod_namespace_module' => 'system/modules/namespaces/templates',
+	'ce_namespace_module'  => 'system/modules/Namespaces/templates',
+	'mod_namespace_module' => 'system/modules/Namespaces/templates',
 ));
