@@ -12,6 +12,25 @@
 
 
 /**
+ * Register the classes
+ */
+ClassLoader::addClasses(array
+(
+	// Hook
+	'Namespaces\Hook\Page'                => 'system/modules/Namespaces/Hook/Page.php',
+
+	// Module
+	'Namespaces\Module\NamespaceModule'   => 'system/modules/Namespaces/Module/NamespaceModule.php',
+
+	// Content
+	'Namespaces\Content\NamespaceContent' => 'system/modules/Namespaces/Content/NamespaceContent.php',
+
+	// 
+	'Namespaces\NamespaceClass'           => 'system/modules/Namespaces/NamespaceClass.php',
+));
+
+
+/**
  * Register the templates
  */
 TemplateLoader::addFiles(array
